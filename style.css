@@ -22,7 +22,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #ffd9ae;
+    background-color: #ffffff;
     padding: 10px 0;
 }
 
@@ -38,8 +38,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #fff;
-    color: #ff7e5f;
+    background-color: #ffcec7;
+    color: #ffffff;
 }
 
 /* Hero Section */
@@ -100,7 +100,7 @@ nav a:hover {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #ffcec7;
+    background-color: #ffd9ae;
     padding: 20px;
     color: #333;
     font-size: 16px;
