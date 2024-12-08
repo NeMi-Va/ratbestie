@@ -15,14 +15,13 @@ header {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 5px solid #ffd9ae; /* Pastel orange */
 }
 
 /* Navigation Bar */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #ffd9ae;
     padding: 10px 0;
 }
 
