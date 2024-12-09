@@ -12,13 +12,13 @@ body {
 
 /* Header Styles */
 header {
-    background: rgba(255, 255, 255, 0.8); /* Transparent white for contrast */
+    background: #ffffffcc; /* Transparent white for contrast */
     width: 100%;
     text-align: center;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #333333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ff7e5f; /* Darker pastel orange for hover */
+    background-color: #333333; /* Darker color for hover */
     color: #fff;
 }
 
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .grid-item {
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -107,7 +107,7 @@ footer {
     text-align: center;
     width: 100%;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Transparent white for contrast */
+    background: #ffffffcc; /* Transparent white for contrast */
     font-size: 16px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
