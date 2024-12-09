@@ -47,34 +47,6 @@ nav a:hover {
   background-color: #333333; /* Darker color for hover */
   color: #fff;
 }
-/* Alternate senction */
-.alternate p {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.alternate p:nth-child(even) {
-  text-align: left;
-}
-
-.alternate p:nth-child(odd) {
-  text-align: right;
-}
-
-.alternate img {
-  width: 300px; /* Set image size */
-  margin: 10px;
-  display: block;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-.alternate img:nth-child(odd) {
-  float: right
-}
-
-/* Align every even image to the right */
-.alternate img:nth-child(even) {
-  float: left
-}
 
 /* Hero Section */
 .hero {
@@ -101,6 +73,7 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Grid Section */
 .grid-container {
@@ -139,4 +112,51 @@ footer {
   background: #ffffffcc; /* Transparent white for contrast */
   font-size: 16px;
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Section .grid-section2 styling */
+.grid-section2 {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid container */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  align-items: center; /* Center content vertically */
+  gap: 20px; /* Space between text and image */
+}
+
+/* Text styling */
+.grid-section2 p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+/* Image styling */
+.grid-image2 {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.grid-section2:nth-child(odd) .grid-container2 {
+  grid-template-columns: 1fr 1fr; /* Text first, image second */
+}
+
+/* Even grids: Image on the left, text on the right */
+.grid-section2:nth-child(even) .grid-container2 {
+  grid-template-columns: 1fr 1fr; /* Image first, text second */
+  direction: rtl; /* Reverse content flow */
+}
+
+.grid-section2:nth-child(even) .grid-container2 > * {
+  direction: ltr; /* Restore normal text flow inside cells */
 }
