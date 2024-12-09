@@ -1,81 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living With Pet Rats</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-    </header>
-    <nav>
-      <a href="index.html">Rat Besties</a>
-      <a href="beforegettingrats.html">Before Getting Rats</a>
-      <a href="ratnutrition.html">Rat Nutrition</a>
-      <a href="training.html">Training</a>
-      <a href="medicalproblems.html">Medical Problems</a>
-    </nav>
-    <h1>Living With Pet Rats</h1>
-    <section class="grid-section">
-        
-      <!-- First Grid -->
-      <section class="grid-section2">
-        <h2>Cage:</h2>
-        <div class="grid-container2">
-          <p>
-            Get an appropriately sized cage for your pets! <br>
-            The usual recommendation is 2 cubic feet per rat but if you can buy a bigger cage, please do it! <br>
-            So, the more rats you have, the larger the cage should be. If you have two rats it should be up to 4 cubic feet at a minimum.
-          </p>
-          <img src="examplecage.jpg" alt="Example Cage." class="grid-image2">
-        </div>
-      </section>
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #ffcec7, #ffd9ae); /* Pastel gradient background */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-      <!-- Second Grid -->
-      <section class="grid-section2">
-        <div class="grid-container2">
-          <p>
-            Rats are social creatures, so always keep them in pairs or groups. <br>
-            They bond closely with each other and thrive in social environments. <br>
-            Isolation can cause stress, so avoid keeping a single rat alone.
-          </p>
-          <img src="ratdancing.gif" alt="Rat Dancing" class="grid-image2">
-        </div>
-      </section>
+/* Header Styles */
+header {
+  background: #ffffffcc; /* Transparent white for contrast */
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
 
-      <!-- Third Grid -->
-      <section class="grid-section2">
-        <div class="grid-container2">
-          <p>
-            Ensure your rats have plenty of enrichment and toys in their cage. <br>
-            Items like ropes, tunnels, and chew toys are great for keeping them entertained and mentally stimulated.
-          </p>
-          <img src="examplecage.jpg" alt="Example Cage" class="grid-image2">
-        </div>
-      </section>
-        Letting the rats out of their cage:
-It is crucial to let your rats out of their cage no matter the cage size.
-Let rats out at least 2 times a day 1 hour at a time.
-By letting your rats roam in a controlled environment, you bond with them as well as make their lives a lot more fun!</p>
-Rat proofing the roaming space:
-<li>Close all the holes through which your fur baby can escape to explore the unknown territories by using hard-to-chew items.</li>
-<li>Don’t use cloths as rats will pull them out nor e.g., cardboard as rats will chew threw it.</li>
-<li>Hide anything and everything you don’t want to be bitten or chewed.</li>
-<li>Even if the rat is not trying to eat your stuff their curious nature will often make them try everything by chewing it a little.</li>
-<li>Before letting the rats out always remember to close all the needed doors/cabinets.</li>
-Spaces to hide:
-<li>Because rats are prey animals, they need spaces to hide to feel comfortable.</li>
-<li>Provide cardboard boxes or old sheets where the rats can burrow.</li>
-Spaces to climb:
-<li>Rats love to climb, hence try to allow them to climb where they want.</li>
-<li>If the climbing spot is not safe close it off by using pet fences or an improvised fence from e.g., big container lid.</li>
-<li>If possible, get them a cat tree to climb onto. </li>
-        </ul></p>
-        <img src="placeholder.jpg" alt="Hero image of a cute pet rat">
-    </section>
-    <footer>
-        Don't hesitate to contact me if you have any questions or suggestions at <b>ratbestie@gmail.com</b>
-    </footer>
-</body>
-</html>
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 14px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  background: rgba(255, 255, 255, 0.8); /* Transparent white for contrast */
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333333; /* Darker color for hover */
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  color: #333;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.hero img {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Grid Section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.grid-item {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.grid-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background: #ffffffcc; /* Transparent white for contrast */
+  font-size: 16px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Section .grid-section2 styling */
+.grid-section2 {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid container */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  align-items: center; /* Center content vertically */
+  gap: 10px; /* Space between text and image */
+}
+
+/* Text styling */
+.grid-section2 p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0px;
+  align-self: center; /* Vertically center text */
+  justify-self: center; /* Horizontally center text */
+}
+
+/* Image styling */
+.grid-image2 {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  align-self: start; /* Align the image at the top of its grid cell */
+  justify-self: center; /* Horizontally center the image */
+}
+
+.grid-section2:nth-child(odd) .grid-container2 {
+  grid-template-columns: 1fr 1fr; /* Text first, image second */
+}
+
+/* Even grids: Image on the left, text on the right */
+.grid-section2:nth-child(even) .grid-container2 {
+  grid-template-columns: 1fr 1fr; /* Image first, text second */
+  direction: rtl; /* Reverse content flow */
+}
+
+.grid-section2:nth-child(even) .grid-container2 > * {
+  direction: ltr; /* Restore normal text flow inside cells */
+}
