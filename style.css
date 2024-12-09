@@ -46,6 +46,19 @@ nav a:hover {
     background-color: #333333; /* Darker color for hover */
     color: #fff;
 }
+/* Right Section*/
+.lefttext {
+    text-align: left;
+    padding: 50px 20px;
+    color: #333;
+    max-width: 800px;
+}
+.righttext {
+    text-align: left;
+    padding: 50px 20px;
+    color: #333;
+    max-width: 800px;
+}
 
 /* Hero Section */
 .hero {
