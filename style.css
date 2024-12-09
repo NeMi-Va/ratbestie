@@ -28,7 +28,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 nav a {
@@ -68,7 +68,7 @@ nav a:hover {
 
 .hero img {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
