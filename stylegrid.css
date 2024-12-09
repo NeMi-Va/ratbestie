@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 h1 {
@@ -96,7 +96,7 @@ nav a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  
+
   a:link {
     color: #333;
     background-color: transparent;
@@ -139,12 +139,11 @@ nav a:hover {
 
 }
 
-.grid-item h3 {
-  font-size: 20px;
+.grid-item h2 {
+  font-size: 23px;
   color: #333;
 margin: auto
 }
-
 .grid-item p {
   font-size: 20px;
   line-height: 1.5;
@@ -152,7 +151,6 @@ margin: auto
   margin: 0px;
   flex: 1; /* Text takes equal space */
 }
-
 /* Footer */
 footer {
   text-align: center;
@@ -164,7 +162,7 @@ footer {
 }
 
 
-/* Section .grid-section2 */
+/* Section .grid-section2 styling */
 .grid-section2 {
   padding: 50px;
   background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
@@ -179,18 +177,6 @@ footer {
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   align-items: center; /* Center content vertically */
   gap: 10px; /* Space between text and image */
-}
-} 
-.grid-section3 {
-  display: grid; /* Use grid layout */
-  place-items: center; /* Center content horizontally and vertically */
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  font-size: 22px;
 }
 /* Sourcing */
 figure {margin: auto;}
