@@ -219,3 +219,10 @@ footer {
   margin: 0px;
   flex: 1; /* Text takes equal space */
 }
+
+/* Sourcing */
+figure {margin: auto;}
+figcaption {margin: auto;
+  text-align: center;
+  font-size: 10px;
+width: 300px;}
