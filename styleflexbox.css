@@ -135,6 +135,7 @@ nav a:hover {
   color: #333;
   margin: 0px;
   flex: 1; /* Text takes equal space */
+  align-items: center;
 }
 .grid-section2 h2 {
   font-size: 25px;
