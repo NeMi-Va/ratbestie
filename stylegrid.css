@@ -192,3 +192,8 @@ footer {
   margin: 20px;
   font-size: 22px;
 }
+/* Sourcing */
+figure {margin: auto;}
+figcaption {margin: auto;
+  text-align: center;
+  font-size: 20px;}
