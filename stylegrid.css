@@ -87,6 +87,7 @@ nav a:hover {
   gap: 20px;
   padding: 20px;
   width: 100%;
+  text-align: center; 
 }
 
 .grid-item {
@@ -95,18 +96,19 @@ nav a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  
 }
 
 .grid-item img {
   max-width: 100%;
   border-radius: 10px;
-  margin-bottom: 15px;
+
 }
 
 .grid-item h3 {
   font-size: 20px;
   color: #333;
-  margin-bottom: 10px;
+margin: auto
 }
 
 /* Footer */
@@ -137,39 +139,6 @@ footer {
   gap: 10px; /* Space between text and image */
 }
 
-/* Text styling */
-.grid-section2 p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin: 0px;
-  align-self: center; /* Vertically center text */
-  justify-self: center; /* Horizontally center text */
-}
-
-/* Image styling */
-.grid-image2 {
-  max-width: 100%; /* Ensure the image doesn't overflow */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px;
-  align-self: start; /* Align the image at the top of its grid cell */
-  justify-self: center; /* Horizontally center the image */
-}
-
-.grid-section2:nth-child(odd) .grid-container2 {
-  grid-template-columns: 1fr 1fr; /* Text first, image second */
-}
-
-/* Even grids: Image on the left, text on the right */
-.grid-section2:nth-child(even) .grid-container2 {
-  grid-template-columns: 1fr 1fr; /* Image first, text second */
-  direction: rtl; /* Reverse content flow */
-}
-
-.grid-section2:nth-child(even) .grid-container2 > * {
-  direction: ltr; /* Restore normal text flow inside cells */
-}
-
 .grid-section3 {
   display: flex;              
   flex-direction: column;      
@@ -181,36 +150,4 @@ footer {
   border-radius: 10px;          
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   margin: 20px;   
-  
-
-  a:link {
-    color: #333;
-    background-color: transparent;
-    text-decoration: none;
-    font-style: italic; 
-    text-decoration: underline;
-  }
-
-  a:visited {
-    color: #333;
-    background-color: transparent;
-    text-decoration: none;
-    font-style: italic; 
-    text-decoration: underline;
-  }
-
-  a:hover {
-    color: #333;
-    background-color: transparent;
-    text-decoration: underline;
-    font-weight:bold;
-  }
-
-  a:active {
-    color: #333;
-    background-color: transparent;
-    text-decoration: none;
-    font-style: italic; 
-    text-decoration: underline;
-  }
 }
