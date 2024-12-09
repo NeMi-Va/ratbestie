@@ -180,7 +180,8 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   margin: 20px;   
   font-size: 22px;
-  }
+  width: 65%;
+}
 .grid-section3 a:link {
     color: #333;
     background-color: transparent;
