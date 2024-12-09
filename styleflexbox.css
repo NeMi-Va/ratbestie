@@ -87,9 +87,9 @@ nav a:hover {
   margin: 50px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
-
-  a:link {
+  .grid-section2  a:link {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -97,7 +97,7 @@ nav a:hover {
     text-decoration: underline;
   }
 
-  a:visited {
+  .grid-section2  a:visited {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -105,14 +105,14 @@ nav a:hover {
     text-decoration: underline;
   }
 
-  a:hover {
+  .grid-section2  a:hover {
     color: #333;
     background-color: transparent;
     text-decoration: underline;
     font-weight:bold;
   }
 
-  a:active {
+  .grid-section2  a:active {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -180,9 +180,8 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   margin: 20px;   
   font-size: 22px;
-}
-
-  a:link {
+  }
+.grid-section3 a:link {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -190,7 +189,7 @@ footer {
     text-decoration: underline;
   }
 
-  a:visited {
+  .grid-section3 a:visited {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -198,14 +197,14 @@ footer {
     text-decoration: underline;
   }
 
-  a:hover {
+  .grid-section3  a:hover {
     color: #333;
     background-color: transparent;
     text-decoration: underline;
     font-weight:bold;
   }
 
-  a:active {
+  .grid-section3 a:active {
     color: #333;
     background-color: transparent;
     text-decoration: none;
@@ -218,11 +217,12 @@ footer {
   margin-bottom: 5px;
   color: #333;
   flex: 1; /* Text takes equal space */
-}
-  /* Sourcing */
-figure {margin: auto;}
+  }
   
-figcaption {margin: auto;
-  text-align: center;
-  font-size: 10px;
-  width: 300px;}
+  /* Sourcing */
+  figure {margin: auto;}
+
+  figcaption {margin: auto;
+    text-align: center;
+    font-size: 10px;
+    width: 300px;}
