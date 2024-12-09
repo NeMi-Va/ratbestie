@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(180deg, #ffcec7, #ffd9ae); /* Pastel gradient background */
+  background:( #ffd9ae); /* Pastel background */
+  background-image:url(flowerbackground2.png);
   color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 /* Header Styles */
 header {
   background: #ffffffcc; /* Transparent white for contrast */
@@ -117,9 +117,9 @@ footer {
 
 /* Section .grid-section2 styling */
 .grid-section2 {
-  padding: 20px;
+  padding: 50px;
   background-color: rgba(255, 255, 255, 0.8); /* Light translucent background */
-  margin: 20px;
+  margin: 50px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -129,7 +129,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   align-items: center; /* Center content vertically */
-  gap: 20px; /* Space between text and image */
+  gap: 10px; /* Space between text and image */
 }
 
 /* Text styling */
@@ -137,7 +137,9 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  margin: 0;
+  margin: 0px;
+  align-self: center; /* Vertically center text */
+  justify-self: center; /* Horizontally center text */
 }
 
 /* Image styling */
@@ -145,6 +147,8 @@ footer {
   max-width: 100%; /* Ensure the image doesn't overflow */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
+  align-self: start; /* Align the image at the top of its grid cell */
+  justify-self: center; /* Horizontally center the image */
 }
 
 .grid-section2:nth-child(odd) .grid-container2 {
