@@ -160,12 +160,25 @@ nav a:hover {
 
 /* Footer */
 footer {
+  position: relative; /* To position elements within the footer */
   text-align: center;
   width: 100%;
   padding: 20px;
   background: #ffffffcc; /* Transparent white for contrast */
   font-size: 16px;
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-img-link {
+  position: absolute; /* Position the image link independently */
+  left: 10px; /* Distance from the left edge of the footer */
+  top: 50%; /* Vertically center the image */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+}
+
+.footer-img {
+  width: 50px; /* Adjust the size of the image */
+  height: auto;
 }
 
 .grid-section3 {
